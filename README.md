@@ -13,9 +13,7 @@ Get a telegram notification when a website changed
 2) Set up telegram  
 Follow the commandline instructions to set up telegram notifications
 
-3) Run 
+3) Run with the website address you wish to check
     
-        python refresh_website_to_aleret_on_changes.py
+        python refresh_website_to_aleret_on_changes.py --website address.to.website 
 
-4) Insert a websit addresse when prompt
-5) Insert minutes to approximately wait between checks when prompt
