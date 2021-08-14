@@ -1,7 +1,7 @@
 # Website_changed_notification
 Get a telegram notification when a website changed 
 
-## instructions
+## Instructions
     git clone https://github.com/Onr/website_changed_notification.git
     
     cd website_changed_notification
