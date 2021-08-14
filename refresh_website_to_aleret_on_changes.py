@@ -3,14 +3,12 @@ import urllib.request
 import time
 import random
 from tqdm import tqdm
-import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-import os
 
-import python_telegram_notification 
+import python_telegram_notification
+print('Setting up telegram notifications')
 telegram_bot = python_telegram_notification.telegram_notification()
 website_address = input('insert a web site address to chaeck: ')
-minutes_to_wait_between_chacks = int(input('how many minutes to wait between each cheack? : '))
+minutes_to_wait_between_chacks = int(input('how many minutes to approximately wait between checks? : '))
 sleep_befor_checks_for_secondes = 60 * minutes_to_wait_between_chacks
 max_checks = 10_000 
 add_random_of_pulse_minus_sec = 25
