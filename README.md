@@ -11,7 +11,7 @@ Get a telegram notification when a website changes
     
     pip install -r requirements.txt
 2) Set up telegram  
-Follow the commandline instructions to set up telegram notifications
+Follow the command line instructions to set up telegram notifications
 
 3) Run with the website address you wish to check
     
