@@ -5,11 +5,11 @@ Get a telegram notification when a website changes
 1) Install 
 
 
-    git clone https://github.com/Onr/website_changed_notification.git
+        git clone https://github.com/Onr/website_changed_notification.git
     
-    cd website_changed_notification
+        cd website_changed_notification
     
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 2) Set up telegram  
 Follow the command line instructions to set up telegram notifications
 
